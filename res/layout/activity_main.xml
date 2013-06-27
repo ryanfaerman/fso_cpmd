@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+		
+    <RadioGroup
+    android:id="@+id/radioGrp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp" 
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal">
+    
+    <RadioButton
+        android:id="@+id/radio_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:checked="false"
+        android:text="All" 
+        tools:ignore="HardcodedText" />
+    <RadioButton
+        android:id="@+id/radio_retweeted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:checked="false"
+        android:text="Was Retweeted?" 
+        tools:ignore="HardcodedText" />
+    
+    </RadioGroup>
+    <ListView 
+        android:id="@+id/tweet_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>
