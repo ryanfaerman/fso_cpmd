@@ -6,20 +6,28 @@
 //  Copyright (c) 2013 Ryan Faerman. All rights reserved.
 //
 
+#import <Parse/Parse.h>
 #import "RWAppDelegate.h"
-
 #import "RWViewController.h"
+
 
 @implementation RWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+  self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+  [Parse setApplicationId:@"umROMo87Wx1C9sUdX3UM2TV512CemMd0m6jFOzdZ"
+                clientKey:@"LSQLLijsgCeNLFDvI00UF3h6dZraiSNJmRNLp9hU"];
+  
+  [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+  
   self.viewController = [[RWViewController alloc] initWithNibName:@"RWViewController" bundle:nil];
-  self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
+  
+  UINavigationController *navController = [[UINavigationController alloc]
+                                           initWithRootViewController:self.viewController];
+  self.window.rootViewController = navController;
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

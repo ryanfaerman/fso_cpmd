@@ -18,6 +18,21 @@
 		75B77E411772A25200306342 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B77E401772A25200306342 /* Default-568h@2x.png */; };
 		75B77E441772A25200306342 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B77E431772A25200306342 /* RWViewController.m */; };
 		75B77E471772A25200306342 /* RWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B77E451772A25200306342 /* RWViewController.xib */; };
+		75B77E4E1772A4DE00306342 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E4D1772A4DE00306342 /* Parse.framework */; };
+		75B77E571772A53700306342 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E4F1772A53700306342 /* AudioToolbox.framework */; };
+		75B77E581772A53700306342 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E501772A53700306342 /* CFNetwork.framework */; };
+		75B77E591772A53700306342 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E511772A53700306342 /* libz.1.1.3.dylib */; };
+		75B77E5A1772A53700306342 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E521772A53700306342 /* MobileCoreServices.framework */; };
+		75B77E5B1772A53700306342 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E531772A53700306342 /* QuartzCore.framework */; };
+		75B77E5C1772A53700306342 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E541772A53700306342 /* Security.framework */; };
+		75B77E5D1772A53700306342 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E551772A53700306342 /* StoreKit.framework */; };
+		75B77E5E1772A53700306342 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E561772A53700306342 /* SystemConfiguration.framework */; };
+		75B77E601772A5F400306342 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E5F1772A5F400306342 /* CoreLocation.framework */; };
+		75B77E641772B2F800306342 /* RWPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B77E621772B2F800306342 /* RWPageViewController.m */; };
+		75B77E651772B2F800306342 /* RWPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B77E631772B2F800306342 /* RWPageViewController.xib */; };
+		75B77E681773635F00306342 /* RWPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B77E671773635F00306342 /* RWPageModel.m */; };
+		75B77E6A1773CE6B00306342 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B77E691773CE6B00306342 /* libsqlite3.dylib */; };
+		75B77E6D1773FB6A00306342 /* RWDatabaseContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B77E6C1773FB6A00306342 /* RWDatabaseContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +52,24 @@
 		75B77E421772A25200306342 /* RWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
 		75B77E431772A25200306342 /* RWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
 		75B77E461772A25200306342 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RWViewController.xib; sourceTree = "<group>"; };
+		75B77E4D1772A4DE00306342 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		75B77E4F1772A53700306342 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		75B77E501772A53700306342 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		75B77E511772A53700306342 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		75B77E521772A53700306342 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		75B77E531772A53700306342 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		75B77E541772A53700306342 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		75B77E551772A53700306342 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		75B77E561772A53700306342 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		75B77E5F1772A5F400306342 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75B77E611772B2F800306342 /* RWPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPageViewController.h; sourceTree = "<group>"; };
+		75B77E621772B2F800306342 /* RWPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWPageViewController.m; sourceTree = "<group>"; };
+		75B77E631772B2F800306342 /* RWPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RWPageViewController.xib; sourceTree = "<group>"; };
+		75B77E661773635F00306342 /* RWPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWPageModel.h; sourceTree = "<group>"; };
+		75B77E671773635F00306342 /* RWPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWPageModel.m; sourceTree = "<group>"; };
+		75B77E691773CE6B00306342 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		75B77E6B1773FB6A00306342 /* RWDatabaseContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDatabaseContext.h; sourceTree = "<group>"; };
+		75B77E6C1773FB6A00306342 /* RWDatabaseContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDatabaseContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +77,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B77E6A1773CE6B00306342 /* libsqlite3.dylib in Frameworks */,
+				75B77E601772A5F400306342 /* CoreLocation.framework in Frameworks */,
+				75B77E571772A53700306342 /* AudioToolbox.framework in Frameworks */,
+				75B77E581772A53700306342 /* CFNetwork.framework in Frameworks */,
+				75B77E591772A53700306342 /* libz.1.1.3.dylib in Frameworks */,
+				75B77E5A1772A53700306342 /* MobileCoreServices.framework in Frameworks */,
+				75B77E5B1772A53700306342 /* QuartzCore.framework in Frameworks */,
+				75B77E5C1772A53700306342 /* Security.framework in Frameworks */,
+				75B77E5D1772A53700306342 /* StoreKit.framework in Frameworks */,
+				75B77E5E1772A53700306342 /* SystemConfiguration.framework in Frameworks */,
+				75B77E2F1772A25200306342 /* CoreGraphics.framework in Frameworks */,
 				75B77E2B1772A25200306342 /* UIKit.framework in Frameworks */,
 				75B77E2D1772A25200306342 /* Foundation.framework in Frameworks */,
-				75B77E2F1772A25200306342 /* CoreGraphics.framework in Frameworks */,
+				75B77E4E1772A4DE00306342 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +117,17 @@
 		75B77E291772A25200306342 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75B77E691773CE6B00306342 /* libsqlite3.dylib */,
+				75B77E5F1772A5F400306342 /* CoreLocation.framework */,
+				75B77E4F1772A53700306342 /* AudioToolbox.framework */,
+				75B77E501772A53700306342 /* CFNetwork.framework */,
+				75B77E511772A53700306342 /* libz.1.1.3.dylib */,
+				75B77E521772A53700306342 /* MobileCoreServices.framework */,
+				75B77E531772A53700306342 /* QuartzCore.framework */,
+				75B77E541772A53700306342 /* Security.framework */,
+				75B77E551772A53700306342 /* StoreKit.framework */,
+				75B77E561772A53700306342 /* SystemConfiguration.framework */,
+				75B77E4D1772A4DE00306342 /* Parse.framework */,
 				75B77E2A1772A25200306342 /* UIKit.framework */,
 				75B77E2C1772A25200306342 /* Foundation.framework */,
 				75B77E2E1772A25200306342 /* CoreGraphics.framework */,
@@ -88,7 +143,14 @@
 				75B77E421772A25200306342 /* RWViewController.h */,
 				75B77E431772A25200306342 /* RWViewController.m */,
 				75B77E451772A25200306342 /* RWViewController.xib */,
+				75B77E611772B2F800306342 /* RWPageViewController.h */,
+				75B77E621772B2F800306342 /* RWPageViewController.m */,
+				75B77E631772B2F800306342 /* RWPageViewController.xib */,
+				75B77E661773635F00306342 /* RWPageModel.h */,
+				75B77E671773635F00306342 /* RWPageModel.m */,
 				75B77E311772A25200306342 /* Supporting Files */,
+				75B77E6B1773FB6A00306342 /* RWDatabaseContext.h */,
+				75B77E6C1773FB6A00306342 /* RWDatabaseContext.m */,
 			);
 			path = sqlitefuntime;
 			sourceTree = "<group>";
@@ -164,6 +226,7 @@
 				75B77E3F1772A25200306342 /* Default@2x.png in Resources */,
 				75B77E411772A25200306342 /* Default-568h@2x.png in Resources */,
 				75B77E471772A25200306342 /* RWViewController.xib in Resources */,
+				75B77E651772B2F800306342 /* RWPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +240,9 @@
 				75B77E371772A25200306342 /* main.m in Sources */,
 				75B77E3B1772A25200306342 /* RWAppDelegate.m in Sources */,
 				75B77E441772A25200306342 /* RWViewController.m in Sources */,
+				75B77E641772B2F800306342 /* RWPageViewController.m in Sources */,
+				75B77E681773635F00306342 /* RWPageModel.m in Sources */,
+				75B77E6D1773FB6A00306342 /* RWDatabaseContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +327,10 @@
 		75B77E4B1772A25200306342 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sqlitefuntime/sqlitefuntime-Prefix.pch";
 				INFOPLIST_FILE = "sqlitefuntime/sqlitefuntime-Info.plist";
@@ -272,6 +342,10 @@
 		75B77E4C1772A25200306342 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sqlitefuntime/sqlitefuntime-Prefix.pch";
 				INFOPLIST_FILE = "sqlitefuntime/sqlitefuntime-Info.plist";
