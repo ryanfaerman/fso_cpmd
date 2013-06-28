@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 	private static final String DATABASE_NAME = "pagesDB";
-	private static final int DATABASE_VERSION = 12;
+	private static final int DATABASE_VERSION = 18;
 	private static final String TAG = "TRACE";
 	
 	public static final String CREATE_TABLE = "create table if not exists pages (id integer primary key autoincrement, remote_id varchar(255), title varchar(255), body text, dirty boolean default true, updated_at integer, category varchar(255))";

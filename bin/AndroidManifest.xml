@@ -23,6 +23,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.sqliteplaytime.FormActivity"
+            android:label="@string/page_form"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

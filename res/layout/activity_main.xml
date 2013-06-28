@@ -4,38 +4,43 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 		
-    <RadioGroup
-    android:id="@+id/radioGrp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="10dp" 
-    android:orientation="horizontal"
-    android:layout_gravity="center_horizontal">
-    
-    <RadioButton
-        android:id="@+id/radio_all"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:checked="false"
-        android:text="All" 
-        tools:ignore="HardcodedText" />
-    <RadioButton
-        android:id="@+id/radio_retweeted"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:checked="false"
-        android:text="Was Retweeted?" 
-        tools:ignore="HardcodedText" />
-    
-    </RadioGroup>
-    <ListView 
-        android:id="@+id/tweet_list"
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        <LinearLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp" />
+        android:orientation="horizontal">
+        
+	        <Button 
+	            android:id="@+id/sort_by_category_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sort_by_category"/>
+	       
+	        <Button 
+	            android:id="@+id/sort_by_alpha_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/sort_alphabetically"/>
+	        
+	        <Button 
+	            android:id="@+id/add_page"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/add_page"/>
+    		</LinearLayout>
+    
+        <ListView 
+	        android:id="@+id/tweet_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+    
+        
+    
 
 </RelativeLayout>

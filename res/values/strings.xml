@@ -4,5 +4,14 @@
     <string name="app_name">sqliteplaytime</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="sort_by_category">Category Sort</string>
+    <string name="sort_alphabetically">Alpha Sort</string>
+    <string name="add_page">Add Page</string>
+    <string name="page_form">Page Form</string>
+    <string name="title">Title</string>
+    <string name="category">Category</string>
+    <string name="body">Body</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
 
 </resources>
